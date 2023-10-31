@@ -17,16 +17,37 @@ def two_list_dictionary(keys, values):
    """
     answer = {}
 
-    if len(keys) == len(values):
-        for index in range(len(keys)):
+    for key in keys:
+        answer.setdefault(key)
+        index = keys.index(key)
+
+        if len(keys) <= len(values):
             answer[keys[index]] = values[index]
-    
-    if len(keys) < len(values):
-        for key in keys:
-            answer.setdefault(key, default=None)
         
-        for index in range(len(values)):
-            answer[keys[index]] = values[index]
+        if len(keys) > len(values):
+            for index in range(len(values)):
+                answer[keys[index]] = values[index]
+        
+        
+
+    
+    
+    
+    
+    
+    
+    
+    
+    # if len(keys) == len(values):
+    #     for index in range(len(keys)):
+    #         answer[keys[index]] = values[index]
+    
+    # if len(keys) < len(values):
+    #     for key in keys:
+    #         answer.setdefault(key)
+        
+    #     for index in range(len(values)):
+    #         answer[keys[index]] = values[index]
 
         
        

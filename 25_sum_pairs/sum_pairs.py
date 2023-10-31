@@ -22,14 +22,14 @@ def sum_pairs(nums, goal):
         ()
     """
     
-    temp_val = 0
+    
 
-    for num in nums:
-        if temp_val == 0:
-            temp_val = num
-
-        if temp_val + num == goal:
-            return (temp_val, num)
+    for val in nums:
+        for num in nums:
+            if (val + num) == goal:
+                return (val,num)
+        
+    return ()
 
 
 

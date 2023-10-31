@@ -8,16 +8,10 @@ def titleize(phrase):
         'Only Capitalize First'
     """
 
+    words = phrase.split(' ')
     answer = ''
 
-    for char in phrase.lower():
-        if phrase.index(char) == 0:
-            answer = answer + char.upper()
-
-        if phrase[phrase.index(char)-1] == ' ':
-            answer = answer + char.upper()
-            
-        else:
-            answer = answer + char
+    for word in words:
+        answer = answer + word.capitalize() + ' '
     
-    return answer
+    return answer.strip()
