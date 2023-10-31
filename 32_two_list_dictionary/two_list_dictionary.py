@@ -15,3 +15,28 @@ def two_list_dictionary(keys, values):
         >>> two_list_dictionary(['a', 'b', 'c'], [1, 2, 3, 4])
         {'a': 1, 'b': 2, 'c': 3}
    """
+    answer = {}
+
+    if len(keys) == len(values):
+        for index in range(len(keys)):
+            answer[keys[index]] = values[index]
+    
+    if len(keys) < len(values):
+        for key in keys:
+            answer.setdefault(key, default=None)
+        
+        for index in range(len(values)):
+            answer[keys[index]] = values[index]
+
+        
+       
+       
+        # for val in range(len(keys)-len(values)):
+        #     values.append(None)
+
+        # for index in range(len(keys)):
+        #     answer[keys[index]] = values[index]
+
+
+
+    return answer
