@@ -11,3 +11,12 @@ def mode(nums):
         >>> mode([2, 2, 3, 3, 2])
         2
     """
+
+    count = 0
+    answer = 0
+
+    for num in nums:
+        if nums.count(num) > count:
+            answer = num
+
+    return answer
