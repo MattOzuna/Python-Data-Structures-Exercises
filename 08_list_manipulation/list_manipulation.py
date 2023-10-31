@@ -55,3 +55,5 @@ def list_manipulation(lst, command, location, value=None):
             return lst
 
     else: return None
+
+    # should be using elif

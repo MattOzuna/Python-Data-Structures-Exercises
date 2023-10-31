@@ -15,3 +15,6 @@ def frequency(lst, search_term):
             count += 1
             
     return count
+
+# use count method
+# return lst.count(search_term)

@@ -11,3 +11,7 @@ def last_element(lst):
     if lst == []:
         return None
     return lst.pop()
+
+    # can be shorter
+    # if lst:
+    #     return lst[-1]

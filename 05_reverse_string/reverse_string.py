@@ -14,3 +14,7 @@ def reverse_string(phrase):
     for letter in list_phrase:
         answer = answer + letter
     return answer
+
+    #incorrect
+        # return phrase[::-1]
+        # can reverse with just by splicing

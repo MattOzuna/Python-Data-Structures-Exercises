@@ -15,3 +15,11 @@ def multiple_letter_count(phrase):
                 count += 1
         answer[char] = count
     return answer
+
+    #incorrect
+    # counter = {}
+
+    # for ltr in phrase:
+    #     counter[ltr] = counter.get(ltr, 0) + 1
+
+    # return counter

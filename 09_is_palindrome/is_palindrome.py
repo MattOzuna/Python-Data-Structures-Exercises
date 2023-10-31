@@ -37,3 +37,6 @@ def is_palindrome(phrase):
 
     else: return False
     
+    # can reverse with splice
+    # normalized = phrase.lower().replace(' ', '')
+    # return normalized == normalized[::-1]
