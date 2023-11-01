@@ -24,3 +24,5 @@ def multiply_even_numbers(nums):
             answer = answer * even
 
         return answer
+
+    #solution is much simpler

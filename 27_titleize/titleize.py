@@ -15,3 +15,5 @@ def titleize(phrase):
         answer = answer + word.capitalize() + ' '
     
     return answer.strip()
+
+#there is a buitl in function for this .title()

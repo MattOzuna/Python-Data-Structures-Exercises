@@ -24,3 +24,5 @@ def same_frequency(num1, num2):
         return True
 
     return False
+
+    #solution made a second function and is pretty cool

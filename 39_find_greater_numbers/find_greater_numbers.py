@@ -28,4 +28,6 @@ def find_greater_numbers(nums):
                 answer += 1
                 
     return answer
+
+    #similar to solution but slightly different
         

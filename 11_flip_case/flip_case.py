@@ -21,3 +21,5 @@ def flip_case(phrase, to_swap):
     
     return answer
             
+    # short hand += works for strings
+    # answer += char

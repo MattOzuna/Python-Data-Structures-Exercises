@@ -16,3 +16,5 @@ def vowel_count(phrase):
             answer[char] = phrase.lower().count(char)
 
     return answer
+
+    #can use different if statement see solution

@@ -38,3 +38,5 @@ def truncate(phrase, n):
             return answer
 
         return answer + '...'
+
+#no need for a for loop see solution

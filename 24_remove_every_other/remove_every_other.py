@@ -13,3 +13,5 @@ def remove_every_other(lst):
     """
 
     return [item for item in lst if lst.index(item) % 2 != 1]
+
+    #can use step feature of slicing

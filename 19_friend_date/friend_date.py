@@ -21,3 +21,5 @@ def friend_date(a, b):
         return True
         
     return False
+
+#solution used truthiness of non empty sets

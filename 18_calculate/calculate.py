@@ -53,3 +53,4 @@ def calculate(operation, a, b, make_int=False, message='The result is'):
     else:
         return None
 
+#solution much simpler

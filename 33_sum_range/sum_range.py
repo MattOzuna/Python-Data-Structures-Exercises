@@ -37,3 +37,4 @@ def sum_range(nums, start=0, end=None):
 
     return answer
 
+#solution is way more awesome

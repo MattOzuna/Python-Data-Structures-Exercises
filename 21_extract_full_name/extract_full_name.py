@@ -21,3 +21,4 @@ def extract_full_names(people):
         answer.append(f'{person['first']} {person['last']}')
     
     return answer
+#can be a computation

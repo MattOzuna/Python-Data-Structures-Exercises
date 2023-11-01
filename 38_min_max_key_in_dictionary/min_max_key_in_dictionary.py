@@ -16,3 +16,4 @@ def min_max_keys(d):
 
     return tuple([d_keys[0], d_keys[len(d_keys)-1]])
         
+#solution is cooler

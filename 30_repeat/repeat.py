@@ -28,3 +28,5 @@ def repeat(phrase, num):
     
     else:
         return None
+
+        #solution is simpler

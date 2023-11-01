@@ -11,3 +11,5 @@ def compact(lst):
             answer.append(val)
 
     return answer
+
+#solution uses computation for this

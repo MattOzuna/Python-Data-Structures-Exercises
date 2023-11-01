@@ -34,6 +34,6 @@ def two_oldest_ages(ages):
             oldest.append(age)
             oldest.reverse()
             return tuple(oldest)
-        
+    #solution is shorted but worse runtime
 
 

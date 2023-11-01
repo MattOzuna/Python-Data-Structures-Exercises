@@ -48,5 +48,6 @@ def includes(collection, sought, start=None):
             if collection[key] == sought:
                 return True
         return False
-
+        
+    #solution is much simpler
 
